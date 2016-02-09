@@ -1,0 +1,161 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.main {
+	width: 975px;
+	box-shadow: 0px 0px 0px 5px gray;
+	margin: 0 auto;
+	position: relative;
+	display: block;
+}
+.header {
+	height: 47px;
+	display: block;
+	width: 100%;
+	border: 1px solid black;
+}
+
+.space {
+	font-family: nyt-franklin, arial, helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	letter-spacing: .65px;
+	line-height: 16px;
+	text-decoration: underline;
+	text-transform: uppercase;
+	word-spacing: 0px;
+	background-color: #ffffff;
+	color: #000000;
+	display: inline;
+}
+
+.headline {
+	font-family: nyt-cheltenham, georgia, 'times new roman', times, serif;
+	font-size: 34px;
+	font-style: italic;
+	font-weight: bold;
+	line-height: 38px;
+	background-color: #ffffff;
+	color: #000000;
+}
+
+
+
+.author {
+	font-family: nyt-cheltenham-sh, georgia, 'times new roman', times, serif;
+	font-size: 11px;
+	
+	line-height: 12px;
+	word-spacing: 0px;
+	background-color: #ffffff;
+	color: #000000;
+	display: inline;
+
+}
+
+b {
+	font-weight: bold;
+}
+
+.comments {
+	font-family: nyt-franklin, arial, helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: 300;
+	line-height: 16px;
+	text-align: center;
+	text-transform: uppercase;
+	vertical-align: middle;
+	word-spacing: 0px;
+	background-color: #ffffff;
+	color: #326891;
+	float:right;
+	display: block;
+}
+
+.author-comm {
+	height: 29px;
+	width: 975px;
+	border-top: 1px solid #e2e2e2;
+	padding: 2px 0 0 0;
+	display: block;
+}
+
+.image {
+	width: 975px;
+}
+
+.caption {
+	font-family: nyt-cheltenham-sh, georgia, 'times new roman', times, serif;
+	font-size: 13px;
+	font-weight: 300;
+	line-height: 17px;
+	word-spacing: 0px;
+	background-color: #ffffff;
+	color: #666666;
+	height: 51px;
+	width: 615px;
+	max-width: 615px;
+	bottom: 23px;
+	right: 0px;
+	display: block;
+}
+
+.text {
+	font-family: georgia, 'times new roman', times, serif;
+	font-size: 16px;
+	font-weight: normal;
+	line-height: 23px;
+	word-spacing: 0px;
+	background-color: #ffffff;
+	color: #333333;
+	display: block;
+	width: 495px;
+	margin: 0 0 16px 120px;
+	max-width: 540px;
+}
